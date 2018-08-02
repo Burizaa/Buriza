@@ -1,0 +1,158 @@
+* {
+background-color: white;
+}
+
+
+
+
+body {
+  background-color: #7838b7;
+  width: 900px;
+  height: 700px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  width: 900px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  background-color: yellow;
+  color: black;
+  text-decoration: line-through;
+}
+
+.block {
+  background-color: grey;
+  border: 3px solid red;
+  -webkit-box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.75);
+  height: 120px;
+  width: 500px;
+  margin: 30px auto 100px; auto;
+}
+
+.img_container {
+  float: left;
+  border: 3px black solid;
+}
+
+.img_container2 {
+  float: right;
+  border: 3px black solid;
+}
+
+.img1 {
+  background-color: #7838b7;
+}
+
+
+.img2 {
+  background-color: #7838b7;
+  transform: scaleX(-1);
+}
+
+.block p {
+  background-color: grey;
+  margin: 0;
+  padding: 5px;
+}
+
+.block2 {
+  text-align: center;
+  background-color: #888810;
+  width: 600px;
+  margin: auto auto 10px auto;
+  border: 5px dashed #cc0099;
+}
+
+.btn_rec {
+  position: absolute;
+  width: 310px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul div:nth-child(n) {
+  position: relative;
+  width: 50px;
+  height: 50px;
+
+  display: inline-block;
+}
+
+.rec {
+  position: relative;
+  visibility: hidden;
+  float: right;
+  width: 160px;
+  height: 50px;
+}
+
+.button {
+ position: relative;
+  height: 50px;
+  width: 150px;
+  border: 1px solid grey;
+  background-color: red;
+}
+
+#bro1 {
+  bottom: 0px;
+  height: 50px;
+  background: url("bro.png");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#bro1_fire {
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  background: url("fire.gif");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  transform: scaleY(-1);
+}
+
+#bro2 {
+  height: 50px;
+  background: url("bro.png");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#bro2_fire {
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  background: url("fire.gif");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  transform: scaleY(-1);
+}
+
+#bro3 {
+  height: 50px;
+  background: url("bro.png");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#bro3_fire {
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  background: url("fire.gif");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  transform: scaleY(-1);
+}
